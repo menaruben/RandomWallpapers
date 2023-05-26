@@ -25,7 +25,7 @@ func getRandomImage(path string) (string, error) {
 	// Initialize the random number generator with a different seed value each "time"
 	rand.Seed(time.Now().UnixNano())
 
-	randomIndex := rand.Intn(len(images))
+	randomIndex := rand.Intn(len(images)-1)
 	randomImagePath := path + "/" + images[randomIndex].Name()
 
 	return randomImagePath, err

@@ -1,4 +1,5 @@
 # RandomWallpapers
+Note: For testing purposes I have used lots images of [the Primeagen's anime repository](https://github.com/ThePrimeagen/anime).
 ## Usage
 After building the executable using ```go build randwallpaper.go``` and adding it to ```PATH``` you can run it like a CLI application. 
 There are several parameters:
